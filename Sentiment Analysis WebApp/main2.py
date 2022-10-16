@@ -477,10 +477,7 @@ def main():
             
             else:
                 st.markdown("Enter Review First!!")
-       
-    
-    
-        
+      
     else:
         image = Image.open('about.jpg')
         st.image(image, use_column_width=True)
